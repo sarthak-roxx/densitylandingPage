@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 38" width="38" height="38">
+	<title>team-small</title>
+	<defs>
+		<image  width="30" height="28" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAcCAMAAABBJv+bAAAAAXNSR0IB2cksfwAAAOdQTFRFAAAASVZGSFhFSFhESlpFSFlFSVlFR1lGSFhESFhASFlFR1pESFlFR1lGR1lEYJ9qQFBASmBJWpRjSVlGXJVnbMOASFhGWo5jbMSBbMSBU3tYbMOATGZMar19bMSBaLZ5cL+AY6lyvc8w1+orwtUvpLY0e408Z3g/WIdf7/8g6/8n6/8nzeAtuMswmaw2cYM9T21Q6/8m4fUpa4VGaL+A6v8ly/A96/8ndMh87P8mq+FU4/stbMOAjNNqbMSBw+xDa8SBbMOBa8R/bMOCs+VP6/8o6/8n6v8n6v8qo91a3/8g3Pgwz/M7hlkQyQAAAE10Uk5TAFBgQDD/z6+AIN/vv49wMBD/H4//gH///+//QP//v/8Q/3D///////8Q7////////4D//yAw/7//UP//kP/P/9/vcK//QHCQMP8QkI+ddyIbAAAA+0lEQVR4nHWS51rCMBRAU2rByhbQIKOgoEJxsi17CKLv/zymTZPeG9rzr99Jk5NBiECL6SSaC4MRT1zqZpg1rwxBMpXO6Flkc4Hl5K+hLijWKJaAvVHtLS0HVlPtHaW0IrOSiq3WmK6fR/vWoi4NrlPq1E3P0lJUFseLu39otR+fgH2mAjeu07Vdei+vb96gd2l53Ict+Wy1+1ag6YDpoQ0ZAcvjxshPgC67e5si/QV/B3E+DrAzosQx5tIu+LHhuKWwq4F/6ijO8ePWwobHbeR947gRuBASEbeFTw3H7VhWAz/k/fdhLJZwJjIacZzyMT+VMMs57X//5Mc/u08/WD6OjwYAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="4" y="5"/>
+</svg>
