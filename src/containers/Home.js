@@ -880,12 +880,12 @@ export default function Home() {
                       <p> Product Guy aka Viceroy of Research</p>
                     </div>
                   </div>
-                  {/* <div className="orb-team">
+                  <div className="orb-team">
                       <img src={Vishnu} />
                       <div>
-                        <b>Vishnu Nair</b> Product Guy aka Explorer in Chief
+                        <h3>Vishnu Nair</h3> <p>Product Guy aka Explorer in Chief</p>
                       </div>
-                    </div> */}
+                    </div>
                   <div className="orb-team">
                     <img src={Team13} />
                     <div>
