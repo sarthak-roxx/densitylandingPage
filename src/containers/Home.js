@@ -1008,8 +1008,7 @@ export default function Home() {
                 />
                 <CardContent className="blog-content">
                   <Typography gutterBottom variant="h5" component="div">
-                    What is "leverage" in crypto trading? How can you profit
-                    from it?
+                  Your Funds Are SAFU (Secure Asset Fund for Users)
                     <span className="date">Team Density, Nov 5, 2022</span>
                   </Typography>
                   <Typography
@@ -1017,13 +1016,9 @@ export default function Home() {
                     variant="body2"
                     color="text.secondary"
                   >
-                    Leverage in crypto trading is the trading of cryptocurrency
-                    or other financial assets using borrowed funds. Your
-                    purchasing or selling power is increased, allowing you to
-                    transact with more money than you presently have in your
-                    wallet.
+                    Introduction: "Funds are SAFU" is a phrase that became a meme after Bizonacci, a YouTube content creator, produced a video named "Funds Are Safu" in 2018. The name of the video was a wordplay of the original phrase "Funds are safe" coined by the CEO of Binance Changpeng Zhou.
                   </Typography>
-                  <Link href="https://blogs.density.exchange/what-is-leverage-in-crypto-trading-how-to-profit-from-it/">
+                  <Link href="https://blogs.density.exchange/your-funds-are-safu-secure-asset-fund-for-users/">
                     <span className="read-more">
                       Read more <KeyboardDoubleArrowRightIcon />
                     </span>
@@ -1041,7 +1036,7 @@ export default function Home() {
                 />
                 <CardContent className="blog-content">
                   <Typography gutterBottom variant="h5" component="div">
-                    Is trading an Art or a Science?
+                  What is the Funding Rate in Futures and why does it matter?
                     <span className="date">Team Density, Nov 4, 2022</span>
                   </Typography>
                   <Typography
@@ -1049,11 +1044,11 @@ export default function Home() {
                     variant="body2"
                     color="text.secondary"
                   >
-                    What do these dudes have in common: Edison Dylan Einstein
-                    Picasso No, they’re not the latest NFT collection. Although
-                    that would be rad 🤙 They’re scientists and artists.{" "}
+                    Periodic payments to traders that are long or short are based on the difference between perpetual contract markets and spot prices.
+
+As these perpetual contracts never really settle, exchanges need a mechanism to ensure that future prices and index prices converge on a regular basis. This mechanism is called the funding rate.
                   </Typography>
-                  <Link href="https://blogs.density.exchange/is-trading-an-art-or-a-science/">
+                  <Link href="https://blogs.density.exchange/funding-rate/">
                     {" "}
                     <span className="read-more">
                       Read more <KeyboardDoubleArrowRightIcon />
