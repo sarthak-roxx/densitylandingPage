@@ -834,7 +834,7 @@ export default function Home() {
               {/* </span>
                 </div>
               </div> */}
-              <Marquee speed={50} pauseOnHover={true} gradient={false}>          
+              <Marquee speed={50} pauseOnHover={true} gradient={false}>
                 <div style={{ display: "flex" }}>
                   <div className="orb-team">
                     <img src={Team18} />
@@ -881,11 +881,12 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="orb-team">
-                      <img src={Vishnu} />
-                      <div>
-                        <h3>Vishnu Nair</h3> <p>Product Guy aka Explorer in Chief</p>
-                      </div>
+                    <img src={Vishnu} />
+                    <div>
+                      <h3>Vishnu Nair</h3>{" "}
+                      <p>Product Guy aka Explorer in Chief</p>
                     </div>
+                  </div>
                   <div className="orb-team">
                     <img src={Team13} />
                     <div>
@@ -899,7 +900,7 @@ export default function Home() {
                   <div className="orb-team">
                     <img src={Team14} />
                     <div>
-                      <h3 style={{margin:0}}>Poulami Chakrabarty</h3>
+                      <h3 style={{ margin: 0 }}>Poulami Chakrabarty</h3>
                       <p>Designer aka ambassador of buzz</p>
                     </div>
                   </div>
@@ -911,70 +912,74 @@ export default function Home() {
               </Marquee>
             </Grid>
             <Grid item xs={12} md={12} className="team-sec">
-              <Marquee speed={50} pauseOnHover={true} direction={"right"} gradient={false}>
-              <div style={{ display: "flex" }}>
-                
+              <Marquee
+                speed={50}
+                pauseOnHover={true}
+                direction={"right"}
+                gradient={false}
+              >
+                <div style={{ display: "flex" }}>
                   {/* <div className="main-sec-team"> */}
-                    <div className="orb-team">
-                      <img src={Team12} />
-                      <div>
-                        <h3>Zaine shah</h3> <p>Growth</p>
-                      </div>
+                  <div className="orb-team">
+                    <img src={Team12} />
+                    <div>
+                      <h3>Zaine shah</h3> <p>Growth</p>
                     </div>
-                    <div className="orb-team">
-                      <img src={RahulDhage} />
-                      <div>
-                        <h3>Rahul Dhage</h3><p>Content</p>
-                      </div>
+                  </div>
+                  <div className="orb-team">
+                    <img src={RahulDhage} />
+                    <div>
+                      <h3>Rahul Dhage</h3>
+                      <p>Content</p>
                     </div>
-                    <div className="orb-team">
-                      <img src={Team17} />
-                      <div>
-                        <h3>Abhishek R</h3> <p>Graphic</p>
-                      </div>
+                  </div>
+                  <div className="orb-team">
+                    <img src={Team17} />
+                    <div>
+                      <h3>Abhishek R</h3> <p>Graphic</p>
                     </div>
-                    <div className="orb-team">
-                      <img src={Rushikesh} />
-                      <div>
-                        <h3>Rushikesh</h3> <p>Product</p>
-                      </div>
+                  </div>
+                  <div className="orb-team">
+                    <img src={Rushikesh} />
+                    <div>
+                      <h3>Rushikesh</h3> <p>Product</p>
                     </div>
-                    <div className="orb-team">
-                      <img src={Aniket} />
-                      <div>
-                        <h3>Aniket</h3> <p>Backend Developer</p>
-                      </div>
+                  </div>
+                  <div className="orb-team">
+                    <img src={Aniket} />
+                    <div>
+                      <h3>Aniket</h3> <p>Backend Developer</p>
                     </div>
-                    <div className="orb-team">
-                      <img src={Aman} />
-                      <div>
-                        <h3>Aman</h3> <p>Backend Developer</p>
-                      </div>
+                  </div>
+                  <div className="orb-team">
+                    <img src={Aman} />
+                    <div>
+                      <h3>Aman</h3> <p>Backend Developer</p>
                     </div>
-                    <div className="orb-team">
-                      <img src={Maheedhar} />
-                      <div>
-                        <h3>Maheedhar</h3><p>Backend Developer</p>
-                      </div>
+                  </div>
+                  <div className="orb-team">
+                    <img src={Maheedhar} />
+                    <div>
+                      <h3>Maheedhar</h3>
+                      <p>Backend Developer</p>
                     </div>
-                   
-                    <div className="orb-team">
-                      <img src={Preetish} />
-                      <div>
-                        <h3>Preetish</h3> <p>Software Ninjaneer</p>
-                      </div>
+                  </div>
+
+                  <div className="orb-team">
+                    <img src={Preetish} />
+                    <div>
+                      <h3>Preetish</h3> <p>Software Ninjaneer</p>
                     </div>
-                    <div className="orb-team">
-                      <img src={Nikhil} />
-                      <div>
-                        <h3>Nikhil</h3> <p>Software Ninjaneer</p>
-                      </div>
+                  </div>
+                  <div className="orb-team">
+                    <img src={Nikhil} />
+                    <div>
+                      <h3>Nikhil</h3> <p>Software Ninjaneer</p>
                     </div>
-               
+                  </div>
                 </div>
-              {/* </div> */}
+                {/* </div> */}
               </Marquee>
-              
             </Grid>
           </Grid>
         </Grid>
