@@ -49,8 +49,12 @@ export default function Header({
         <Grid container alignItems="center" className="header-sec">
           <Grid item lg={3} xs={5}>
             <img src={Logo} className="main-logo" />
+            <a href="https://shorthaired-twist-38b.notion.site/T-Cs-for-the-Density-Futures-trading-Competition-0704be0da1d446f2a34cdc83fea81468" target="_blank" style={{ textDecoration:"none"}}>
+            <span className="blink">Trading competition</span>
+            </a>
           </Grid>
           <Grid item lg={6} xs={4} className="menu">
+          
            <a href="#" style={{ textDecoration:"none"}}>
             <span className="support menu-link">Support</span>
             </a>
