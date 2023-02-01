@@ -70,8 +70,8 @@ import Popups from "../components/Popups";
 import Waitlist from "../components/Waitlist";
 import Faqs from "../components/Faqs";
 
-import Blog1 from "../images/blog1.svg";
-import Blog2 from "../images/blog2.svg";
+import Blog1 from "../images/blog1.jpg";
+import Blog2 from "../images/blog2.jpg";
 
 function valueLabelFormat(value) {
   const units = ["X", "X", "X", "X"];
@@ -120,8 +120,8 @@ const marks = [
     label: "1x",
   },
   {
-    value: 10,
-    label: "10x",
+    value: 25,
+    label: "25x",
   },
 ];
 
@@ -243,7 +243,7 @@ export default function Home() {
                 <br /> Ecosystem
               </h1>
               <div className="bottom-text">
-                10X<span className="divider">Leverage</span>24x7
+                25X<span className="divider">Leverage</span>24x7
                 <span className="divider">Support</span> 1Bn+{" "}
                 <span>Insurance Fund</span>
                 <form>
@@ -329,7 +329,7 @@ export default function Home() {
             <img src={Progress} />
             <b>Leverage Maximised</b>
             <p>
-              Take leverage up to 10X and increase your potential to earn more
+              Take leverage up to 25X and increase your potential to earn more
               with less.
             </p>
           </Grid>
@@ -521,7 +521,7 @@ export default function Home() {
                 value={value}
                 min={1}
                 step={1}
-                max={10}
+                max={25}
                 scale={calculateValue}
                 getAriaValueText={valueLabelFormat}
                 valueLabelFormat={valueLabelFormat}
