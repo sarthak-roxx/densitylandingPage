@@ -63,7 +63,7 @@ export default function Header({
             </a>
           </Grid>
           <Grid item lg={3} xs={3}>
-          <Button className="try-demo-button"
+          {/* <Button className="try-demo-button"
           sx={{ float: "right",
           background: "#ebff25",
           color: "black",
@@ -74,9 +74,9 @@ export default function Header({
           padding: "0px 5px" }} 
           onClick={() => openInNewTab('https://demo.density.exchange')}>
             Try demo 
-          </Button>
-            <Button className="join-btn-header" onClick={handleClickOpen}>
-              Join Us <ArrowForwardIcon />
+          </Button> */}
+            <Button onClick={() => openInNewTab('https://app.density.exchange')} className="join-btn-header">
+              Trade Now<ArrowForwardIcon />
             </Button>
           </Grid>
         </Grid>

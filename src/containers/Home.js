@@ -219,6 +219,10 @@ export default function Home() {
     setLeverageMarketReturn(`${newValue * value}%`);
   };
 
+  const openInNewTab = url => {
+    window.open(url, '_blank', 'noopener,noreferrer');
+  };
+
   return (
     <>
       <div className="main" id="main">
@@ -247,7 +251,7 @@ export default function Home() {
                 <span className="divider">Support</span> 1Bn+{" "}
                 <span>Insurance Fund</span>
                 <form>
-                  <TextField
+                  {/* <TextField
                     InputProps={{
                       disableUnderline: true,
                     }}
@@ -260,10 +264,10 @@ export default function Home() {
                     helperText={error?.emailerror}
                     placeholder="Enter your E-mail Id"
                     className="email-f"
-                  />
+                  /> */}
 
-                  <Button className="join-btn" onClick={handleClickOpen}>
-                    Join Us <ArrowForwardIcon />
+                  <Button onClick={() => openInNewTab('https://app.density.exchange')} className="join-btn">
+                    Trade Now <ArrowForwardIcon />
                   </Button>
                 </form>
               </div>
@@ -370,7 +374,7 @@ export default function Home() {
         >
           <Grid item xs={12} md={4} className="wishlist-btn"></Grid>
           <Grid item xs={12} md={4} className="wishlist-btn">
-            <Button onClick={handleClickOpen}>Join the Waitlist</Button>
+            <Button onClick={() => openInNewTab('https://app.density.exchange')}>Trade Now</Button>
           </Grid>
           <Grid item xs={12} md={4} className="wishlist-btn"></Grid>
         </Grid>
@@ -401,8 +405,8 @@ export default function Home() {
             alignItems="center"
           >
             <Grid item xs={12} md={3} sm={5} className="wislist-inner">
-              <Button className="join-waitlist" onClick={handleClickOpen}>
-                Join the Waitlist
+              <Button onClick={() => openInNewTab('https://app.density.exchange')} className="join-waitlist">
+                Trade Now
               </Button>
             </Grid>
           </Grid>
