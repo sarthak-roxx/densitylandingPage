@@ -70,8 +70,8 @@ import Popups from "../components/Popups";
 import Waitlist from "../components/Waitlist";
 import Faqs from "../components/Faqs";
 
-import Blog1 from "../images/blog1.svg";
-import Blog2 from "../images/blog2.svg";
+import Blog1 from "../images/blog1.jpg";
+import Blog2 from "../images/blog2.jpg";
 
 function valueLabelFormat(value) {
   const units = ["X", "X", "X", "X"];
@@ -120,8 +120,8 @@ const marks = [
     label: "1x",
   },
   {
-    value: 10,
-    label: "10x",
+    value: 25,
+    label: "25x",
   },
 ];
 
@@ -219,6 +219,10 @@ export default function Home() {
     setLeverageMarketReturn(`${newValue * value}%`);
   };
 
+  const openInNewTab = url => {
+    window.open(url, '_blank', 'noopener,noreferrer');
+  };
+
   return (
     <>
       <div className="main" id="main">
@@ -243,11 +247,11 @@ export default function Home() {
                 <br /> Ecosystem
               </h1>
               <div className="bottom-text">
-                10X<span className="divider">Leverage</span>24x7
+                25X<span className="divider">Leverage</span>24x7
                 <span className="divider">Support</span> 1Bn+{" "}
                 <span>Insurance Fund</span>
                 <form>
-                  <TextField
+                  {/* <TextField
                     InputProps={{
                       disableUnderline: true,
                     }}
@@ -260,10 +264,10 @@ export default function Home() {
                     helperText={error?.emailerror}
                     placeholder="Enter your E-mail Id"
                     className="email-f"
-                  />
+                  /> */}
 
-                  <Button className="join-btn" onClick={handleClickOpen}>
-                    Join Us <ArrowForwardIcon />
+                  <Button onClick={() => openInNewTab('https://app.density.exchange')} className="join-btn">
+                    Trade Now <ArrowForwardIcon />
                   </Button>
                 </form>
               </div>
@@ -329,7 +333,7 @@ export default function Home() {
             <img src={Progress} />
             <b>Leverage Maximised</b>
             <p>
-              Take leverage up to 10X and increase your potential to earn more
+              Take leverage up to 25X and increase your potential to earn more
               with less.
             </p>
           </Grid>
@@ -370,7 +374,7 @@ export default function Home() {
         >
           <Grid item xs={12} md={4} className="wishlist-btn"></Grid>
           <Grid item xs={12} md={4} className="wishlist-btn">
-            <Button onClick={handleClickOpen}>Join the Waitlist</Button>
+            <Button onClick={() => openInNewTab('https://app.density.exchange')}>Trade Now</Button>
           </Grid>
           <Grid item xs={12} md={4} className="wishlist-btn"></Grid>
         </Grid>
@@ -401,8 +405,8 @@ export default function Home() {
             alignItems="center"
           >
             <Grid item xs={12} md={3} sm={5} className="wislist-inner">
-              <Button className="join-waitlist" onClick={handleClickOpen}>
-                Join the Waitlist
+              <Button onClick={() => openInNewTab('https://app.density.exchange')} className="join-waitlist">
+                Trade Now
               </Button>
             </Grid>
           </Grid>
@@ -521,7 +525,7 @@ export default function Home() {
                 value={value}
                 min={1}
                 step={1}
-                max={10}
+                max={25}
                 scale={calculateValue}
                 getAriaValueText={valueLabelFormat}
                 valueLabelFormat={valueLabelFormat}
@@ -1013,8 +1017,7 @@ export default function Home() {
                 />
                 <CardContent className="blog-content">
                   <Typography gutterBottom variant="h5" component="div">
-                    What is "leverage" in crypto trading? How can you profit
-                    from it?
+                  Your Funds Are SAFU (Secure Asset Fund for Users)
                     <span className="date">Team Density, Nov 5, 2022</span>
                   </Typography>
                   <Typography
@@ -1022,13 +1025,9 @@ export default function Home() {
                     variant="body2"
                     color="text.secondary"
                   >
-                    Leverage in crypto trading is the trading of cryptocurrency
-                    or other financial assets using borrowed funds. Your
-                    purchasing or selling power is increased, allowing you to
-                    transact with more money than you presently have in your
-                    wallet.
+                    Introduction: "Funds are SAFU" is a phrase that became a meme after Bizonacci, a YouTube content creator, produced a video named "Funds Are Safu" in 2018. The name of the video was a wordplay of the original phrase "Funds are safe" coined by the CEO of Binance Changpeng Zhou.
                   </Typography>
-                  <Link href="https://blogs.density.exchange/what-is-leverage-in-crypto-trading-how-to-profit-from-it/">
+                  <Link href="https://blogs.density.exchange/your-funds-are-safu-secure-asset-fund-for-users/">
                     <span className="read-more">
                       Read more <KeyboardDoubleArrowRightIcon />
                     </span>
@@ -1046,7 +1045,7 @@ export default function Home() {
                 />
                 <CardContent className="blog-content">
                   <Typography gutterBottom variant="h5" component="div">
-                    Is trading an Art or a Science?
+                  What is the Funding Rate in Futures and why does it matter?
                     <span className="date">Team Density, Nov 4, 2022</span>
                   </Typography>
                   <Typography
@@ -1054,11 +1053,11 @@ export default function Home() {
                     variant="body2"
                     color="text.secondary"
                   >
-                    What do these dudes have in common: Edison Dylan Einstein
-                    Picasso No, they’re not the latest NFT collection. Although
-                    that would be rad 🤙 They’re scientists and artists.{" "}
+                    Periodic payments to traders that are long or short are based on the difference between perpetual contract markets and spot prices.
+
+As these perpetual contracts never really settle, exchanges need a mechanism to ensure that future prices and index prices converge on a regular basis. This mechanism is called the funding rate.
                   </Typography>
-                  <Link href="https://blogs.density.exchange/is-trading-an-art-or-a-science/">
+                  <Link href="https://blogs.density.exchange/funding-rate/">
                     {" "}
                     <span className="read-more">
                       Read more <KeyboardDoubleArrowRightIcon />

@@ -1731,6 +1731,30 @@ label {
 /* For Mobile */
 
 @media(max-width:767px) {
+  .blink{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    font-family: 'Inter', sans-serif;
+    padding-right: 3px;
+    color: #fff;
+
+
+      animation: blinker .75s linear infinite;
+      color: #e2ff6f;
+      font-family: sans-serif;
+  }
+  @-webkit-keyframes blinker {
+    from {opacity: 1.0;}
+    to {opacity: 0.0;}
+  }
+  @keyframes blinker {
+      50% {
+          opacity: 0;
+      }
+  
+  }
   .footer-container {
     padding: 24px;
     width: 100%;
@@ -2313,6 +2337,33 @@ label {
   span.support.menu-link {
     position: relative;
     left: -25px;
+  }
+
+ 
+
+  .blink{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    font-family: 'Inter', sans-serif;
+    padding-right: 3px;
+    color: #fff;
+
+
+      animation: blinker .75s linear infinite;
+      color: #e2ff6f;
+      font-family: sans-serif;
+  }
+  @-webkit-keyframes blinker {
+    from {opacity: 1.0;}
+    to {opacity: 0.0;}
+  }
+  @keyframes blinker {
+      50% {
+          opacity: 0;
+      }
+  
   }
 
   /* .team-inner h2 span:after {
