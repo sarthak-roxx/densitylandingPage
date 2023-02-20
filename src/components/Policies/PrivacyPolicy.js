@@ -31,7 +31,7 @@ export default function PrivacyPolicy() {
             </a>
           </div>
         </div>
-        <div style={{ margin: "1ex" }}>
+        <div style={{ margin: "7ex" }}>
           <div>
             <p> </p>
             <p> </p>
@@ -136,14 +136,37 @@ export default function PrivacyPolicy() {
               }}
             >
               <ol style={{ listStyle: "decimal" }}>
-                <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
-                  <h1>INTRODUCTION</h1>
+                <li
+                  className="li-heading"
+                  style={{
+                    marginLeft: "0pt",
+                    textIndent: "0pt",
+                  }}
+                >
+                  <h1 style={{ color: "#001f5f" }}>INTRODUCTION</h1>
                 </li>
               </ol>
             </div>
             <ol>
               <ol style={{ listStyle: "decimal" }}>
-                <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
+                <li
+                  style={{
+                    position: "relative",
+                    listStyle: "none",
+                    marginLeft: "0pt",
+                    textIndent: "0pt",
+                  }}
+                >
+                  <h2
+                    style={{
+                      position: "absolute",
+                      display: "inline",
+                      top: -20,
+                      left: -35,
+                    }}
+                  >
+                    1.1
+                  </h2>
                   <h2>
                     <a name="0.4_B0002" />
                     This{" "}
@@ -173,7 +196,24 @@ export default function PrivacyPolicy() {
             </ol>
             <ol>
               <ol style={{ listStyle: "decimal" }} start={2}>
-                <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
+                <li
+                  style={{
+                    position: "relative",
+                    listStyle: "none",
+                    marginLeft: "0pt",
+                    textIndent: "0pt",
+                  }}
+                >
+                  <h2
+                    style={{
+                      position: "absolute",
+                      display: "inline",
+                      top: -20,
+                      left: -35,
+                    }}
+                  >
+                    1.2
+                  </h2>
                   <h2>
                     We reserve the right to change, add, amend, modify the terms
                     hereof at discretion from time to time. We may (but we don’t
@@ -197,14 +237,36 @@ export default function PrivacyPolicy() {
               }}
             >
               <ol style={{ listStyle: "decimal" }} start={2}>
-                <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
-                  <h1>your INFORMATION WE COLLECT</h1>
+                <li
+                  className="li-heading"
+                  style={{ marginLeft: "0pt", textIndent: "0pt" }}
+                >
+                  <h1 style={{ color: "#001f5f" }}>
+                    YOUR INFORMATION WE COLLECT
+                  </h1>
                 </li>
               </ol>
             </div>
             <ol>
               <ol style={{ listStyle: "decimal" }}>
-                <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
+                <li
+                  style={{
+                    position: "relative",
+                    listStyle: "none",
+                    marginLeft: "0pt",
+                    textIndent: "0pt",
+                  }}
+                >
+                  <h2
+                    style={{
+                      position: "absolute",
+                      display: "inline",
+                      top: -20,
+                      left: -38,
+                    }}
+                  >
+                    2.1
+                  </h2>
                   <h2>
                     We acknowledge and accept that the personal information that
                     you impart to us, is to be kept in strict confidentiality
@@ -224,7 +286,24 @@ export default function PrivacyPolicy() {
             </ol>
             <ol>
               <ol style={{ listStyle: "decimal" }} start={2}>
-                <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
+                <li
+                  style={{
+                    listStyle: "none",
+                    marginLeft: "0pt",
+                    textIndent: "0pt",
+                    position: "relative",
+                  }}
+                >
+                  <h2
+                    style={{
+                      position: "absolute",
+                      display: "inline",
+                      top: -20,
+                      left: -38,
+                    }}
+                  >
+                    2.2
+                  </h2>
                   <h2>
                     <span style={{ fontWeight: "bold", color: "#002060" }}>
                       Personal Information
@@ -240,7 +319,24 @@ export default function PrivacyPolicy() {
             <ol>
               <ol>
                 <ol style={{ listStyle: "decimal" }}>
-                  <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
+                  <li
+                    style={{
+                      position: "relative",
+                      listStyle: "none",
+                      marginLeft: "0pt",
+                      textIndent: "0pt",
+                    }}
+                  >
+                    <h4
+                      style={{
+                        position: "absolute",
+                        display: "inline",
+                        top: -21,
+                        left: -38,
+                      }}
+                    >
+                      2.2.1
+                    </h4>
                     <h4>
                       <span style={{ fontWeight: "bold", color: "#002060" }}>
                         Personal Details
@@ -256,7 +352,23 @@ export default function PrivacyPolicy() {
             <ol>
               <ol>
                 <ol style={{ listStyle: "decimal" }} start={2}>
-                  <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
+                  <li
+                    style={{
+                      position: "relative",
+                      listStyle: "none",
+                      marginLeft: "0pt",
+                      textIndent: "0pt",
+                    }}
+                  >
+                    <h4
+                      style={{
+                        position: "absolute",
+                        top: -21.5,
+                        left: -38,
+                      }}
+                    >
+                      2.2.2
+                    </h4>
                     <h4>
                       <span style={{ fontWeight: "bold", color: "#002060" }}>
                         Contact Details
@@ -271,7 +383,23 @@ export default function PrivacyPolicy() {
             <ol>
               <ol>
                 <ol style={{ listStyle: "decimal" }} start={3}>
-                  <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
+                  <li
+                    style={{
+                      position: "relative",
+                      listStyle: "none",
+                      marginLeft: "0pt",
+                      textIndent: "0pt",
+                    }}
+                  >
+                    <h4
+                      style={{
+                        position: "absolute",
+                        top: -21.5,
+                        left: -38,
+                      }}
+                    >
+                      2.2.3
+                    </h4>
                     <h4>
                       <span style={{ fontWeight: "bold", color: "#002060" }}>
                         KYC Details
@@ -296,7 +424,24 @@ export default function PrivacyPolicy() {
             </ol>
             <ol>
               <ol style={{ listStyle: "decimal" }} start={3}>
-                <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
+                <li
+                  style={{
+                    position: "relative",
+                    listStyle: "none",
+                    marginLeft: "0pt",
+                    textIndent: "0pt",
+                  }}
+                >
+                  <h2
+                    style={{
+                      position: "absolute",
+                      display: "inline",
+                      top: -20,
+                      left: -38,
+                    }}
+                  >
+                    2.3
+                  </h2>
                   <h2>
                     We also gather and store non-personal information i.e., IP
                     address, browser type, meta-data, app settings, device
@@ -320,18 +465,40 @@ export default function PrivacyPolicy() {
                 borderWidth: "0pt 0pt 1pt 0pt",
                 borderColor: "#ffffff #ffffff #000000 #ffffff",
                 borderStyle: "none none solid none",
-                paddingBottom: "1pt",
               }}
             >
               <ol style={{ listStyle: "decimal" }} start={3}>
-                <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
-                  <h1>how we use your information</h1>
+                <li
+                  className="li-heading"
+                  style={{ marginLeft: "0pt", textIndent: "0pt" }}
+                >
+                  <h1 style={{ color: "#001f5f" }}>
+                    HOW WE USE YOUR INFORMATION
+                  </h1>
                 </li>
               </ol>
             </div>
+
             <ol>
               <ol style={{ listStyle: "decimal" }}>
-                <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
+                <li
+                  style={{
+                    position: "relative",
+                    listStyle: "none",
+                    marginLeft: "0pt",
+                    textIndent: "0pt",
+                  }}
+                >
+                  <h2
+                    style={{
+                      position: "absolute",
+                      display: "inline",
+                      top: -20,
+                      left: -38,
+                    }}
+                  >
+                    3.1
+                  </h2>
                   <h2>
                     We primarily use the information we collect to provide the
                     Services to you and for your use of the Services. This
@@ -343,7 +510,23 @@ export default function PrivacyPolicy() {
             <ol>
               <ol>
                 <ol style={{ listStyle: "decimal" }}>
-                  <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
+                  <li
+                    style={{
+                      position: "relative",
+                      listStyle: "none",
+                      marginLeft: "0pt",
+                      textIndent: "0pt",
+                    }}
+                  >
+                    <h4
+                      style={{
+                        position: "absolute",
+                        top: -21.5,
+                        left: -38,
+                      }}
+                    >
+                      3.1.1
+                    </h4>
                     <h4>
                       verifying your identity, fulfil your trading requests,
                       process and complete transactions, and to carry out
@@ -359,7 +542,23 @@ export default function PrivacyPolicy() {
             <ol>
               <ol>
                 <ol style={{ listStyle: "decimal" }} start={2}>
-                  <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
+                  <li
+                    style={{
+                      listStyle: "none",
+                      marginLeft: "0pt",
+                      textIndent: "0pt",
+                      position: "relative",
+                    }}
+                  >
+                    <h4
+                      style={{
+                        position: "absolute",
+                        top: -21.5,
+                        left: -38,
+                      }}
+                    >
+                      3.1.2
+                    </h4>
                     <h4>
                       conduct data analysis and audits, undertake
                       financial/regulatory/
@@ -373,7 +572,23 @@ export default function PrivacyPolicy() {
             <ol>
               <ol>
                 <ol style={{ listStyle: "decimal" }} start={3}>
-                  <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
+                  <li
+                    style={{
+                      listStyle: "none",
+                      marginLeft: "0pt",
+                      textIndent: "0pt",
+                      position: "relative",
+                    }}
+                  >
+                    <h4
+                      style={{
+                        position: "absolute",
+                        top: -21.5,
+                        left: -38,
+                      }}
+                    >
+                      3.1.3
+                    </h4>
                     <h4>
                       analyse usage and generally improve the Services; ensure
                       the security of the Services, prevent fraud and enforce
@@ -386,7 +601,23 @@ export default function PrivacyPolicy() {
             <ol>
               <ol>
                 <ol style={{ listStyle: "decimal" }} start={4}>
-                  <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
+                  <li
+                    style={{
+                      listStyle: "none",
+                      position: "relative",
+                      marginLeft: "0pt",
+                      textIndent: "0pt",
+                    }}
+                  >
+                    <h4
+                      style={{
+                        position: "absolute",
+                        top: -21.5,
+                        left: -38,
+                      }}
+                    >
+                      3.1.4
+                    </h4>
                     <h4>
                       personalize your experience, offers and promotions that we
                       deliver, contact you about new features, products etc. and
@@ -400,7 +631,24 @@ export default function PrivacyPolicy() {
             </ol>
             <ol>
               <ol style={{ listStyle: "decimal" }} start={2}>
-                <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
+                <li
+                  style={{
+                    listStyle: "none",
+                    position: "relative",
+                    marginLeft: "0pt",
+                    textIndent: "0pt",
+                  }}
+                >
+                  <h2
+                    style={{
+                      position: "absolute",
+                      display: "inline",
+                      top: -20,
+                      left: -38,
+                    }}
+                  >
+                    3.2
+                  </h2>
                   <h2>
                     We are obligated to share your information with governmental
                     agencies and regulatory bodies, prevention of
@@ -413,7 +661,24 @@ export default function PrivacyPolicy() {
             </ol>
             <ol>
               <ol style={{ listStyle: "decimal" }} start={3}>
-                <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
+                <li
+                  style={{
+                    listStyle: "none",
+                    position: "relative",
+                    marginLeft: "0pt",
+                    textIndent: "0pt",
+                  }}
+                >
+                  <h2
+                    style={{
+                      position: "absolute",
+                      display: "inline",
+                      top: -20,
+                      left: -38,
+                    }}
+                  >
+                    3.2
+                  </h2>
                   <h2>
                     We may also share the information so collected with third
                     parties in connection with providing services, products and
@@ -439,14 +704,36 @@ export default function PrivacyPolicy() {
               }}
             >
               <ol style={{ listStyle: "decimal" }} start={4}>
-                <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
-                  <h1>how we protect your information</h1>
+                <li
+                  className="li-heading"
+                  style={{ marginLeft: "0pt", textIndent: "0pt" }}
+                >
+                  <h1 style={{ color: "#001f5f" }}>
+                    HOW WE PROTECT YOUR INFORMATION
+                  </h1>
                 </li>
               </ol>
             </div>
             <ol>
               <ol style={{ listStyle: "decimal" }}>
-                <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
+                <li
+                  style={{
+                    position: "relative",
+                    listStyle: "none",
+                    marginLeft: "0pt",
+                    textIndent: "0pt",
+                  }}
+                >
+                  <h2
+                    style={{
+                      position: "absolute",
+                      display: "inline",
+                      top: -20,
+                      left: -38,
+                    }}
+                  >
+                    4.1
+                  </h2>
                   <h2>
                     We follow applicable industry standards and best practices
                     to reasonably secure information collection from you. We use
@@ -471,14 +758,34 @@ export default function PrivacyPolicy() {
               }}
             >
               <ol style={{ listStyle: "decimal" }} start={5}>
-                <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
-                  <h1>your consents</h1>
+                <li
+                  className="li-heading"
+                  style={{ marginLeft: "0pt", textIndent: "0pt" }}
+                >
+                  <h1 style={{ color: "#001f5f" }}>YOUR CONSENTS</h1>
                 </li>
               </ol>
             </div>
             <ol>
               <ol style={{ listStyle: "decimal" }}>
-                <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
+                <li
+                  style={{
+                    listStyle: "none",
+                    position: "relative",
+                    marginLeft: "0pt",
+                    textIndent: "0pt",
+                  }}
+                >
+                  <h2
+                    style={{
+                      position: "absolute",
+                      display: "inline",
+                      top: -20,
+                      left: -38,
+                    }}
+                  >
+                    5.1
+                  </h2>
                   <h2>
                     By accessing the functionality, products, features, content
                     of{" "}
@@ -500,14 +807,34 @@ export default function PrivacyPolicy() {
               }}
             >
               <ol style={{ listStyle: "decimal" }} start={6}>
-                <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
-                  <h1>Your choices</h1>
+                <li
+                  className="li-heading"
+                  style={{ marginLeft: "0pt", textIndent: "0pt" }}
+                >
+                  <h1 style={{ color: "#001f5f" }}>YOUR CHOICES</h1>
                 </li>
               </ol>
             </div>
             <ol>
               <ol style={{ listStyle: "decimal" }}>
-                <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
+                <li
+                  style={{
+                    position: "relative",
+                    listStyle: "none",
+                    marginLeft: "0pt",
+                    textIndent: "0pt",
+                  }}
+                >
+                  <h2
+                    style={{
+                      position: "absolute",
+                      display: "inline",
+                      top: -20,
+                      left: -38,
+                    }}
+                  >
+                    6.1
+                  </h2>
                   <h2>
                     You always have the right to refuse or withdraw your consent
                     to share/disseminate your sensitive personal information.
@@ -525,7 +852,24 @@ export default function PrivacyPolicy() {
             </ol>
             <ol>
               <ol style={{ listStyle: "decimal" }} start={2}>
-                <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
+                <li
+                  style={{
+                    position: "relative",
+                    listStyle: "none",
+                    marginLeft: "0pt",
+                    textIndent: "0pt",
+                  }}
+                >
+                  <h2
+                    style={{
+                      position: "absolute",
+                      display: "inline",
+                      top: -20,
+                      left: -38,
+                    }}
+                  >
+                    6.2
+                  </h2>
                   <h2>
                     You can close your Account. Even though your account is
                     closed, we still may retain and use your personal
@@ -546,14 +890,34 @@ export default function PrivacyPolicy() {
               }}
             >
               <ol style={{ listStyle: "decimal" }} start={7}>
-                <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
-                  <h1>disclaimer</h1>
+                <li
+                  className="li-heading"
+                  style={{ marginLeft: "0pt", textIndent: "0pt" }}
+                >
+                  <h1 style={{ color: "#001f5f" }}>DISCLAIMER</h1>
                 </li>
               </ol>
             </div>
             <ol>
               <ol style={{ listStyle: "decimal" }}>
-                <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
+                <li
+                  style={{
+                    position: "relative",
+                    listStyle: "none",
+                    marginLeft: "0pt",
+                    textIndent: "0pt",
+                  }}
+                >
+                  <h2
+                    style={{
+                      position: "absolute",
+                      display: "inline",
+                      top: -20,
+                      left: -38,
+                    }}
+                  >
+                    7.1
+                  </h2>
                   <h2>
                     WE DO NOT MAKE ANY EXPRESS OR IMPLIED WARRANTIES ABOUT{" "}
                     <span style={{ color: "#002060" }}>DENSITY.EXCHANGE</span>,
@@ -570,7 +934,24 @@ export default function PrivacyPolicy() {
             </ol>
             <ol>
               <ol style={{ listStyle: "decimal" }} start={2}>
-                <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
+                <li
+                  style={{
+                    position: "relative",
+                    listStyle: "none",
+                    marginLeft: "0pt",
+                    textIndent: "0pt",
+                  }}
+                >
+                  <h2
+                    style={{
+                      position: "absolute",
+                      display: "inline",
+                      top: -20,
+                      left: -38,
+                    }}
+                  >
+                    7.2
+                  </h2>
                   <h2>
                     WE DO NOT WARRANT THAT{" "}
                     <span style={{ color: "#002060" }}>DENSITY.EXCHANGE</span>{" "}
@@ -596,14 +977,34 @@ export default function PrivacyPolicy() {
               }}
             >
               <ol style={{ listStyle: "decimal" }} start={8}>
-                <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
-                  <h1>LIMITATION OF LIABILITY</h1>
+                <li
+                  className="li-heading"
+                  style={{ marginLeft: "0pt", textIndent: "0pt" }}
+                >
+                  <h1 style={{ color: "#001f5f" }}>LIMITATION OF LIABILITY</h1>
                 </li>
               </ol>
             </div>
             <ol>
               <ol style={{ listStyle: "decimal" }}>
-                <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
+                <li
+                  style={{
+                    position: "relative",
+                    listStyle: "none",
+                    marginLeft: "0pt",
+                    textIndent: "0pt",
+                  }}
+                >
+                  <h2
+                    style={{
+                      position: "absolute",
+                      display: "inline",
+                      top: -20,
+                      left: -38,
+                    }}
+                  >
+                    8.1
+                  </h2>
                   <h2>
                     TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE WILL NOT BE
                     LIABLE TO YOU OR ANYONE ELSE FOR ANY CONSEQUENTIAL,
@@ -636,14 +1037,34 @@ export default function PrivacyPolicy() {
               }}
             >
               <ol style={{ listStyle: "decimal" }} start={9}>
-                <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
-                  <h1>INDEMNITY</h1>
+                <li
+                  className="li-heading"
+                  style={{ marginLeft: "0pt", textIndent: "0pt" }}
+                >
+                  <h1 style={{ color: "#001f5f" }}>INDEMNITY</h1>
                 </li>
               </ol>
             </div>
             <ol>
               <ol style={{ listStyle: "decimal" }}>
-                <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
+                <li
+                  style={{
+                    position: "relative",
+                    listStyle: "none",
+                    marginLeft: "0pt",
+                    textIndent: "0pt",
+                  }}
+                >
+                  <h2
+                    style={{
+                      position: "absolute",
+                      display: "inline",
+                      top: -20,
+                      left: -38,
+                    }}
+                  >
+                    9.1
+                  </h2>
                   <h2>
                     TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, YOU SHALL
                     INDEMNIFY AND HOLD HARMLESS THE COMPANY, ITS OWNERS,
@@ -669,14 +1090,34 @@ export default function PrivacyPolicy() {
               }}
             >
               <ol style={{ listStyle: "decimal" }} start={10}>
-                <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
-                  <h1>complaints</h1>
+                <li
+                  className="li-heading"
+                  style={{ marginLeft: "0pt", textIndent: "0pt" }}
+                >
+                  <h1 style={{ color: "#001f5f" }}>COMPLAINTS</h1>
                 </li>
               </ol>
             </div>
             <ol>
               <ol style={{ listStyle: "decimal" }}>
-                <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
+                <li
+                  style={{
+                    listStyle: "none",
+                    position: "relative",
+                    marginLeft: "0pt",
+                    textIndent: "0pt",
+                  }}
+                >
+                  <h2
+                    style={{
+                      position: "absolute",
+                      display: "inline",
+                      top: -20,
+                      left: -45,
+                    }}
+                  >
+                    10.1
+                  </h2>
                   <h2>
                     If you have any grievance, objection or complaint about{" "}
                     <span style={{ color: "#002060" }}>DENSITY.EXCHANGE</span>{" "}
@@ -719,14 +1160,34 @@ export default function PrivacyPolicy() {
               }}
             >
               <ol style={{ listStyle: "decimal" }} start={11}>
-                <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
-                  <h1>force majeure</h1>
+                <li
+                  className="li-heading"
+                  style={{ marginLeft: "0pt", textIndent: "0pt" }}
+                >
+                  <h1 style={{ color: "#001f5f" }}>FORCE MAJEURE</h1>
                 </li>
               </ol>
             </div>
             <ol>
               <ol style={{ listStyle: "decimal" }}>
-                <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
+                <li
+                  style={{
+                    position: "relative",
+                    listStyle: "none",
+                    marginLeft: "0pt",
+                    textIndent: "0pt",
+                  }}
+                >
+                  <h2
+                    style={{
+                      position: "absolute",
+                      display: "inline",
+                      top: -20,
+                      left: -45,
+                    }}
+                  >
+                    11.1
+                  </h2>
                   <h2>
                     We shall not be responsible for delay or default in the
                     performance of our obligations due to contingencies beyond
@@ -748,14 +1209,34 @@ export default function PrivacyPolicy() {
               }}
             >
               <ol style={{ listStyle: "decimal" }} start={12}>
-                <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
-                  <h1>Governing law</h1>
+                <li
+                  className="li-heading"
+                  style={{ marginLeft: "0pt", textIndent: "0pt" }}
+                >
+                  <h1 style={{ color: "#001f5f" }}>GOVERNING LAW</h1>
                 </li>
               </ol>
             </div>
             <ol>
               <ol style={{ listStyle: "decimal" }}>
-                <li style={{ marginLeft: "0pt", textIndent: "0pt" }}>
+                <li
+                  style={{
+                    position: "relative",
+                    listStyle: "none",
+                    marginLeft: "0pt",
+                    textIndent: "0pt",
+                  }}
+                >
+                  <h2
+                    style={{
+                      position: "absolute",
+                      display: "inline",
+                      top: -20,
+                      left: -45,
+                    }}
+                  >
+                    12.1
+                  </h2>
                   <h2>
                     These Terms, its subject matter and its formation, are
                     governed by the laws of the Republic of India. The courts of
@@ -769,11 +1250,11 @@ export default function PrivacyPolicy() {
                 </li>
               </ol>
             </ol>
-            <ol>
+            {/* <ol>
               <ol style={{ listStyle: "decimal" }} start={2}>
                 <li style={{ marginLeft: "0pt", textIndent: "0pt" }} />
               </ol>
-            </ol>
+            </ol> */}
             <div
               style={{
                 borderWidth: "1pt 0pt 0pt 0pt",
@@ -814,7 +1295,7 @@ export default function PrivacyPolicy() {
                   }}
                 >
                   {" "}
-                  |{" "}
+                  4 | 4{" "}
                 </span>
               </p>
             </div>
