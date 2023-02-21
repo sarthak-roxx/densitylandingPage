@@ -10,9 +10,12 @@ import Goto from "../images/goto.svg";
 import Whatsapp from "../images/whatsapp.svg";
 import Mail from "../images/Mail.svg";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import { NavLink } from "react-router-dom";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import PrivacyPolicy from "./Policies/PrivacyPolicy";
+import PrivacyPolicyPDF from "../utils/Privacy Policy.pdf";
+import TermsConditioinsPDF from "../utils/Terms of Use.pdf";
+import TradingPolicyPDF from "../utils/Trading Policy.pdf";
+import AmlPolicyPDF from "../utils/Website AML Policy.pdf";
+import CookiePolicyPDF from "../utils/Website Cookie Policy.pdf";
+
 const Mailto = ({ email, subject, body, children }) => {
   return (
     <a
@@ -97,101 +100,55 @@ export default function Footer() {
 
           <Grid item xs={12} md={10} className="bottom-footer">
             <span>© 2022-2022, All Rights Reserved</span> <br />
-            <NavLink
-              style={{ textDecoration: "none" }}
-              className="navbar-item"
-              activeClassName="is-active"
-              to="privacypolicy"
-              exact
+            <Link
+              underline="none"
+              href={PrivacyPolicyPDF}
+              rel="noreferrer"
+              target="_blank"
+              sx={{ color: "#ebff25", mr: 1 }}
             >
-              <Button
-                className="try-demo-button"
-                sx={{
-                  color: "#ebff25",
-                  textDecoration: "none",
-                  fontFamily: "Overpass",
-                  textTransform: "none",
-                }}
-              >
-                Privacy policy
-              </Button>
-            </NavLink>
-            <NavLink
-              style={{ textDecoration: "none" }}
-              className="navbar-item"
-              activeClassName="is-active"
-              to="tradingpolicy"
-              exact
+              Privacy policy
+            </Link>
+            <Link
+              className="try-demo-button"
+              underline="none"
+              href={TradingPolicyPDF}
+              rel="noreferrer"
+              target="_blank"
+              sx={{ color: "#ebff25", mr: 1 }}
             >
-              <Button
-                className="try-demo-button"
-                sx={{
-                  color: "#ebff25",
-                  textDecoration: "none",
-                  fontFamily: "Overpass",
-                  textTransform: "none",
-                }}
-              >
-                Trading Policy
-              </Button>
-            </NavLink>
-            <NavLink
-              style={{ textDecoration: "none" }}
-              className="navbar-item"
-              activeClassName="is-active"
-              to="amlpolicy"
-              exact
+              Trading policy
+            </Link>
+            <Link
+              className="try-demo-button"
+              underline="none"
+              href={AmlPolicyPDF}
+              rel="noreferrer"
+              target="_blank"
+              sx={{ color: "#ebff25", mr: 1 }}
             >
-              <Button
-                className="try-demo-button"
-                sx={{
-                  color: "#ebff25",
-                  textDecoration: "none",
-                  fontFamily: "Overpass",
-                  textTransform: "none",
-                }}
-              >
-                AML Policy
-              </Button>
-            </NavLink>
-            <NavLink
-              style={{ textDecoration: "none" }}
-              className="navbar-item"
-              activeClassName="is-active"
-              to="cookiepolicy"
-              exact
+              AML Policy
+            </Link>
+            <Link
+              className="try-demo-button"
+              underline="none"
+              href={CookiePolicyPDF}
+              rel="noreferrer"
+              target="_blank"
+              sx={{ color: "#ebff25", mr: 1 }}
             >
-              <Button
-                className="try-demo-button"
-                sx={{
-                  color: "#ebff25",
-                  textDecoration: "none",
-                  fontFamily: "Overpass",
-                  textTransform: "none",
-                }}
-              >
-                Cookie Policy
-              </Button>
-            </NavLink>
-            <NavLink
-              style={{ textDecoration: "none" }}
-              className="navbar-item"
-              activeClassName="is-active"
-              to="termandconditions"
-              exact
+              Cookie policy
+            </Link>
+            <Link
+              className="try-demo-button"
+              underline="none"
+              href={TermsConditioinsPDF}
+              rel="noreferrer"
+              target="_blank"
+              sx={{ color: "#ebff25" }}
             >
-              <Button
-                className="try-demo-button"
-                sx={{
-                  color: "#ebff25",
-                  textDecoration: "none",
-                  fontFamily: "Overpass",
-                  textTransform: "none",
-                }}
-              >
-                Terms and conditions
-              </Button>
-            </NavLink>
+              Terms & Conditions
+            </Link>
           </Grid>
         </Grid>
         <div className="goto-btn">

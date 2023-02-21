@@ -1,0 +1,18 @@
+<svg width="58" height="59" viewBox="0 0 58 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_1038_2020)">
+<circle cx="28.8285" cy="24.3742" r="24.3741" transform="rotate(-180 28.8285 24.3742)" fill="#EBFF25"/>
+<path d="M39.1825 16.0908H18.4845L18.4741 32.6576H39.1825V16.0908ZM37.1117 30.5867H20.545V20.2325L28.8283 25.4096L37.1117 20.2325V30.5867ZM28.8283 23.3388L20.545 18.1617H37.1117L28.8283 23.3388Z" fill="black"/>
+</g>
+<defs>
+<filter id="filter0_d_1038_2020" x="0.454346" y="0" width="56.7483" height="58.7483" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.66 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1038_2020"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1038_2020" result="shape"/>
+</filter>
+</defs>
+</svg>
