@@ -5,7 +5,6 @@ import {
   // Link,
   // Outlet
 } from "react-router-dom";
-import logo from "./logo.svg";
 import "./App.css";
 import Home from "./containers/Home";
 import PrivacyPolicy from "./components/Policies/PrivacyPolicy";
