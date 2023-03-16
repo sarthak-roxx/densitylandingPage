@@ -19,9 +19,7 @@ export default function Header({
   };
 
   const handleClickOpenTryDemo = () => {
-    return <>
-
-    </>
+    return <></>;
   };
 
   const handleClose = () => {
@@ -39,31 +37,41 @@ export default function Header({
   //    setOpen1(false);
   //  };
 
-  const openInNewTab = url => {
-    window.open(url, '_blank', 'noopener,noreferrer');
+  const openInNewTab = (url) => {
+    window.open(url, "_blank", "noopener,noreferrer");
   };
-  
+
   return (
     <>
       <div>
         <Grid container alignItems="center" className="header-sec">
           <Grid item lg={3} xs={5}>
             <img src={Logo} className="main-logo" />
-            <a href="https://shorthaired-twist-38b.notion.site/T-Cs-for-the-Density-Futures-trading-Competition-0704be0da1d446f2a34cdc83fea81468" target="_blank" style={{ textDecoration:"none"}}>
-            <span className="blink">Trading competition</span>
+            <a
+              href="https://shorthaired-twist-38b.notion.site/T-Cs-for-the-Density-Futures-trading-Competition-0704be0da1d446f2a34cdc83fea81468"
+              target="_blank"
+              style={{ textDecoration: "none" }}
+            >
+              <span className="blink">Trading competition</span>
             </a>
           </Grid>
           <Grid item lg={6} xs={4} className="menu">
-          
-           <a href="#" style={{ textDecoration:"none"}}>
-            <span className="support menu-link">Support</span>
+            <a
+              href="https://densityexchange.freshdesk.com/support/home"
+              style={{ textDecoration: "none" }}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span className="support menu-link">Support</span>
             </a>
-           <a href="#blog" style={{ textDecoration:"none", color: "black"}}>
-            <span href="#blog" className="blog menu-link">Blog</span>
+            <a href="#blog" style={{ textDecoration: "none", color: "black" }}>
+              <span href="#blog" className="blog menu-link">
+                Blog
+              </span>
             </a>
           </Grid>
           <Grid item lg={3} xs={3}>
-          {/* <Button className="try-demo-button"
+            {/* <Button className="try-demo-button"
           sx={{ float: "right",
           background: "#ebff25",
           color: "black",
@@ -75,8 +83,12 @@ export default function Header({
           onClick={() => openInNewTab('https://demo.density.exchange')}>
             Try demo 
           </Button> */}
-            <Button onClick={() => openInNewTab('https://app.density.exchange')} className="join-btn-header">
-              Trade Now<ArrowForwardIcon />
+            <Button
+              onClick={() => openInNewTab("https://app.density.exchange")}
+              className="join-btn-header"
+            >
+              Trade Now
+              <ArrowForwardIcon />
             </Button>
           </Grid>
         </Grid>
