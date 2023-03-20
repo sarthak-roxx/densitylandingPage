@@ -242,9 +242,9 @@ export default function Home() {
           <Grid item xs={12} md={6} className="left-sec">
             <div className="left-inner">
               <h1>
-                Most Advanced
-                <br /> Blockchain <span>Derivatives</span>
-                <br /> Ecosystem
+                Make every trade
+                <br /> count with <span>Crypto</span>
+                <br /> Derivatives
               </h1>
               <div className="bottom-text">
                 25X<span className="divider">Leverage</span>24x7
